@@ -4,11 +4,12 @@
 
 #Process:
 # Provide 2 user options: login and create user
-# LOGIN: verify password matches username(case sensative)
+# LOGIN
 # if login is successful, allow access to main home page of website
 # if login is NOT successful, deny access
 
 # create new account, append user and password to text file
+# verify username does not already exist
 # add second password input to verify password match
 # if passwords matches, create account
 # if they DO NOT, deny creation
